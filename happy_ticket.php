@@ -1,9 +1,6 @@
 <?php
 // happy ticket
 error_reporting(E_ERROR);
-$number = 111222333;
-
-$digits = preg_split('//', $number, -1, PREG_SPLIT_NO_EMPTY);
 
 $ticket = 0;
 //считаем сколько может быть счастливых билетиков
